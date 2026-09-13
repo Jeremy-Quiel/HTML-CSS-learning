@@ -1,0 +1,9 @@
+.input-area {
+  resize: none;
+
+  /* PONER SOLO SI NO SE USAR rows COMO ATRIBUTO DEL TEXTAREA*/
+  /* min-height: 10rem; */
+
+  max-width: 100%;
+  min-width: 100%;
+}
