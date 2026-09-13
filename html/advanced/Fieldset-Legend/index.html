@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fieldset and Legend</title>
+</head>
+<body>
+  <h1>Fieldset and Legend</h1>
+  <div class="card">
+    <fieldset class="input-space">
+      <legend class="title-legend">Contact Data</legend>
+      <div class="input-div-space">
+        <label for="in-email" class="input-label">Email</label>
+        <div class="input-div-field">
+          <input type="email" class="input-field" id="in-email" placeholder="example@email.com">
+        </div>
+
+        <legend class="title-legend"></legend>
+        <label for="in-password" class="input-label">Password</label>
+        <div class="input-div-field">
+          <input type="password" class="input-field" id="in-password" placeholder="SecretPassword123">
+        </div>
+      </div>
+      
+    </fieldset>
+
+    <fieldset class="input-space space-bottom">
+      <legend class="title-legend">Personal Data</legend>
+      <div class="input-div-space">
+        <label for="in-name" class="input-label">Name</label>
+        <div class="input-div-field">
+          <input type="text" class="input-field" id="in-name" placeholder="Jeremy">
+        </div>
+      
+
+        <legend class="title-legend"></legend>
+        <label for="in-lastname" class="input-label">Last Name</label>
+        <div class="input-div-field">
+          <input type="text" class="input-field" id="in-lastname" placeholder="Salas">
+        </div>
+        
+
+        <legend class="title-legend"></legend>
+        <label for="in-age" class="input-label">Age</label>
+        <div class="input-div-field">
+          <input type="number" class="input-field" id="in-age" placeholder="20">
+        </div>
+        
+        <legend class="title-legend"></legend>
+        <label for="in-meal" class="input-label">Favorite meal</label>
+        <div class="input-div-field">
+          <input list="input-meals" type="text" class="input-field" id="in-meal" placeholder="Pizza">
+          <datalist id="input-meals">
+            <option value="Pizza"></option>
+            <option value="Hamburger"></option>
+            <option value="Maccarron"></option>
+            <option value="Rice And Beans"></option>
+          </datalist>
+        </div>
+      </div>
+      
+    </fieldset>
+  </div>
+</body>
+</html>
