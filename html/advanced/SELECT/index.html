@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./../TEXTAREA/style.css">
+  <link rel="stylesheet" href="./../TEXTAREA/textarea.css">
+  <link rel="stylesheet" href="./../LABELS/labels.css">
+  <title>SELECT</title>
+</head>
+<body>
+
+  <h1>Contact form</h1>
+  
+  <form class="main-form">
+    <div class="input">
+      <label class="input-label" for="input-name">Name</label>
+      <input type="text" placeholder="Jeremy Salas Quiel" class="input-field" id="input-name">
+    </div>
+
+    <div class="input">
+      <label class="input-label" for="input-email">Email</label>
+      <input type="email" placeholder="jeremy@gmail.com" class="input-field" id="input-email">
+    </div>
+
+    <div class="input">
+      <label for="input-select" class="input-label">User Type</label>
+      <select class="input-field" id="input-select"> 
+        <option value="type1" class="p">Ingineer</option>
+        <option value="type2">Painter</option>
+        <option value="type3">Runner</option>
+        <option value="type4">Singer</option>
+        <option value="type5">Other</option>
+      </select>
+    </div>
+
+    <div class="input">
+      <label class="input-label" for="input-message">Message</label>
+      <textarea
+      id="input-message"
+      class="input-field input-area"
+      placeholder="The page is good but..."
+      maxlength="999"
+      rows="10" // cantidad de lineas antes del scroll
+      ></textarea>
+    </div>
+  </form>
+
+</body>
+</html>
