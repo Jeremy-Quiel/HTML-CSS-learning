@@ -1,0 +1,7 @@
+.input-label {
+  font-size: 2rem;
+  background-color: #0000;
+
+  /* ESPACIO ENTRE LINEAS */
+  line-height: 1.3;
+}
