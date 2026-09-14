@@ -1,0 +1,36 @@
+* {
+  background-color: #111;
+  color: #c09385;
+
+  font-weight: 900;
+
+  font-size: 16px;
+}
+
+h1 {
+  color: #fffc;
+  font-size: 3rem;
+}
+
+summary {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 10px 0;
+  color: #fffc;
+}
+
+span {
+  font-size: 2rem;
+}
+
+p {
+  font-style: italic;
+  font-weight: 100;
+  color: #aaa;
+
+
+  margin-left: 38px;
+  width: 28rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
