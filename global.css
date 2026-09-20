@@ -189,3 +189,26 @@ h6, .h6 {
 .ibord-br {
   border-bottom-right-radius: 20px;
 }
+
+.icont {
+  box-sizing: border-box;
+
+  margin: 40px auto 40px auto;
+  padding: 0;
+
+  width: 90%;
+
+  border-radius: 30px;
+
+  background: radial-gradient(#3c3c3c, #000000);
+
+  box-shadow: 0px 15px 35px -10px #0009;
+}
+
+.ivid {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 10%;
+  background-color: transparent;
+  border-radius: 30px;
+}

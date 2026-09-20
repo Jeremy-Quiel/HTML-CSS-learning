@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./../../../global.css">
+
+  <title>Video and Audio</title>
+</head>
+<body>
+  <h1 class="title">Video and Audio</h1>
+
+  <fieldset class="idesc">
+    <legend class="ilegend h4">Video</legend>
+    <div class="icont">
+      <video
+      autoplay // reproduccion automatica
+      controls // controles de la camara
+      muted // que aparezca muteado
+      loop // bucle infinito
+      src="video.mp4"
+      class="ivid">
+      <track src="captions.vtt" kind="captions" srclang="es" label="Español">
+    </video>
+    </div>
+  </fieldset>
+</body>
+</html>
