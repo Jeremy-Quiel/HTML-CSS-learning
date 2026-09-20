@@ -123,7 +123,7 @@ h6, .h6 {
 }
 
 .ilink {
-  background-color: #0062ff;
+  background-color: #ffffff;
   padding: 15px 0px;
 
   margin: 20px auto;
@@ -131,10 +131,12 @@ h6, .h6 {
   border-radius: 200px;
   border-radius: 50px;
   width: fit-content;
+
+  box-shadow: 0 10px 30px -15px #00000099;
 }
 
 .link {
-  color: #fff;
+  color: rgb(0, 76, 218);
 
   padding: 20px;
   background-color: #0000;
@@ -193,7 +195,7 @@ h6, .h6 {
 .icont {
   box-sizing: border-box;
 
-  margin: 40px auto 40px auto;
+  margin: 10px auto 40px auto;
   padding: 1% 6.5%;
 
   width: 95%;
