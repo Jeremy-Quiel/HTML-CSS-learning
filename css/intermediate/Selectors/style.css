@@ -1,0 +1,185 @@
+html {
+  background-color: #eee;
+}
+
+* {
+  color: #444;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+
+  color: #fff;
+  text-shadow: 3px 3px 5px #0006;
+
+  font-size: 3rem;
+
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #222;
+  font-size: 1.8rem;
+}
+
+li {
+  margin-left: 45px;
+}
+
+fieldset{
+  background-color: #fffc;
+}
+
+fieldset {
+  border: #000 solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.img {
+  box-sizing: border-box;
+  
+  background-color: #fff2;
+  box-shadow: 0 15px 65px -40px #000;
+
+  border-radius: 20px;
+  margin: auto;
+  width: 85%;
+  max-width: 1000px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.selectors {
+  background: rgba(255, 255, 255, 0.453);
+  box-shadow: 0 10px 50px -30px #000;
+
+  width: 90%;
+  max-width: 30rem;
+
+  margin: auto;
+  
+  padding: 20px;
+  margin-bottom: 60px;
+  border-radius: 30px;
+}
+
+
+/* --------------------SELECTORES POR ATRIBUTO-------------------- */
+
+/* Todas las img que su src termina en png */
+img[src$="png"] {
+  border-radius: 10px;
+
+  box-shadow: 0 10px 30px -15px rgba(225, 0, 255, 0.552);
+}
+/* Todas las img que su src termina en jpg */
+img[src$="jpg"] {
+  border: #f50 solid 20px;
+  border-radius: 100%;
+}
+/* Todos los a que su href empiecen por ./../ */
+a[href^="./../"] {
+  color: #50f;
+  
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 100;
+
+}
+/* todos los p con class verboso */
+p[class="verboso"] {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+
+  color: #fff;
+  text-shadow: 1px 1px 3px #0008;
+}
+
+/* --------------------SELECTORES DECENDITES-------------------- */
+
+/* los li dentro de un ul */
+ul li {
+  color: #50f;
+
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+/* todos lo li dentron de un ol */
+ol li {
+  color: #f05;
+
+  font-weight: 100;
+  font-style: italic;
+  text-decoration: line-through;
+  font-size: 30px;
+}
+
+/* --------------------SELECTORES POR HIJOS DIRECTOS-------------------- */
+
+/* Todos los summary que sean hijos de details */
+details > summary {
+  color: #222;
+  background-color: transparent;
+
+  text-shadow: 3px 3px 5px #0005;
+
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+fieldset > legend {
+  color: #222;
+  background-color: transparent;
+
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+/* todos los strong hijos de p */
+p > strong {
+  color: #000;
+
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+/* --------------------SELECTORES ADYACENTES-------------------- */
+
+/* todos los p que estan al mismo nivel que h2 */
+h2 ~ p {
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+/* p que esta justo despues de h2 */
+h2 + p {
+  font-weight: 900;
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-align: justify;
+  font-style: italic;
+  line-height: 1.5;
+}
