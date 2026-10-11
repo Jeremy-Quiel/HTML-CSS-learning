@@ -1,0 +1,54 @@
+* {
+  font-size: 16px;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+h1::first-letter{
+  font-size: 5rem;
+  color: red;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+li::marker {
+  color: red;
+}
+
+li::before {
+  content: 'before ';
+  color: red;
+  font-weight: 900;
+}
+
+li::after {
+  content: ' after';
+  color: red;
+  font-weight: 900;
+}
+
+
+p {
+  font-size: 1.3rem;
+}
+
+p::first-line {
+  font-size: 2rem;
+  color: red;
+  font-weight: 900;
+}
+
+p::selection {
+  background-color: red;
+  color: white;
+}
+
+input::placeholder {
+  color: red;
+  font-family: sans-serif;
+  font-weight: 900;
+}
